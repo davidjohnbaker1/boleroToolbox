@@ -1,9 +1,9 @@
 Package: boleroToolbox
-Title: What the Package Does (One Line, Title Case)
+Title: Functionality for Bolero Dashboard
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+    person("David", "Baker", , "davidjohnbaker1@gmail.com", role = c("aut", "cre"))
+Description: Provides all cleaning, calculations, and plotting for Bolero Dashboard.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
