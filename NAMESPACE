@@ -3,4 +3,6 @@
 export(create_customer_behavior_table)
 export(create_customer_demographic_table)
 export(create_events_table)
+export(create_transactions_table)
+export(ofs_clean_transaction_order_type)
 export(toy_calculate_mrr)
