@@ -17,7 +17,8 @@ create_transactions_table <- function(df, org, lookup_vector) {
     # TODO: Could consider just using Time as the key for this, seems like bad idea
     dplyr::mutate(
       event_datetime = lubridate::mdy_hm(event_datetime),
-      event_id = paste(event_ticketable_name, event_datetime)
+      event_id = paste(event_ticketable_name, event_datetime),
+      transaction_date = lubridate::mdy(transaction_date)
     )
 
 }
